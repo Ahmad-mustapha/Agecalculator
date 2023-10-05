@@ -71,3 +71,7 @@
     background-position: calc(100%, -10px);
     cursor: pointer;
 }
+span{
+    font-size: 20px;
+    color: #ffff76;
+}

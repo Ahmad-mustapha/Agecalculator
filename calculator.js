@@ -40,7 +40,7 @@ gen.addEventListener('click', ()=>{
         y3--
     }
     // console.log(y3, m3, d3)
-    display.innerHTML = `You are ${y3} years, ${m3} months and ${d3} days old`
+    display.innerHTML = `You are <span>${y3}</span>years, <span>${m3}</span>months and <span>${d3}</span>days old`
     display.style.marginTop = '2.5rem'
     function getDaysInMonth(year, month){
         return new Date(year, month, 0).getDate()
